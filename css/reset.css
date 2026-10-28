@@ -1,0 +1,24 @@
+/*padding과 border를 width와 height(요소의 크기)안으로 적용(결과적으로 요소가 커지지 않는다)*/
+*{box-sizing: border-box;}
+
+/*모든 placeholder스타일 변경*/
+::placeholder{
+  font-family: "Noto Sans KR", Arial, sans-serif;
+  font-size:14px;
+  color:#6f6873;
+}
+
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul,li{
+  list-style:none;
+  margin:0; padding:0;
+}
+a{
+  text-decoration: none;
+  user-select: none;/*사용자가 글자를 선택할수 없음*/
+}
+
+h1,h2,h3,h4,h5,h6,p{margin:0;}
